@@ -14,7 +14,7 @@ from src.models.user import db, User
 from src.models.event import Event
 from src.models.lounge import Lounge
 from src.models.membership import MembershipTier, Membership
-from src.main import app
+from api.main import app
 
 def seed_membership_tiers():
     """Create membership tiers"""
